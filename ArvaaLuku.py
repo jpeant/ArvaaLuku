@@ -29,7 +29,9 @@ Arvattava = random.randrange(1, 100)
 arv_kerta = 8           # annetaan 8 arvaus kertaa.
 voitto = False
 
-tyhjiä_rivejä(1)
+tyhjiä_rivejä(2)
+print("---=== Arvaa Luku -peli ===---")
+tyhjiä_rivejä(2)
 print("Tehtävänäsi on arvata luku (1 - 100) ja peli kertoo oletko lähellä (+-10), ")
 print("kaukana vai oikeassa luvussa. Saat 8 kertaa arvata.")
 tyhjiä_rivejä(1)
