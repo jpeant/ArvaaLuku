@@ -30,7 +30,7 @@ arv_kerta = 8           # annetaan 8 arvaus kertaa.
 voitto = False
 
 tyhjiä_rivejä(1)
-print("Tehtävänäsi on arvata luku (1 - 100) ja peli kertoo oletko lähellä, ")
+print("Tehtävänäsi on arvata luku (1 - 100) ja peli kertoo oletko lähellä (+-10), ")
 print("kaukana vai oikeassa luvussa. Saat 8 kertaa arvata.")
 tyhjiä_rivejä(1)
 print("Ohjeet saat näkyviin kirjoittamalla helppi ja painamalla enter-näppäintä.")
