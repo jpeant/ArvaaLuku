@@ -12,12 +12,12 @@ def tyhjiä_rivejä(määrä):    # syöttää tyhjiä rivejä annetun luvun muk
     for x in range(määrä):
         print("")
 
-def syöte():
+def syöte():            # syötä funktio,jossa indikaattorina '>>:'
     vastaus = input(">>: ")
     return vastaus
 
 def kaytto():           # syöttövirheen sattuessa pika-ohje.
-    print("Käyttö: luvut 1 ja 100 väliltä ja komennot helppi ja lopeta")
+    print("Käyttö: luvut 1 ja 100 väliltä ja komennot --help ja lopeta")
 
 def helppi():           # helppi taulukko
     tyhjiä_rivejä(1)
@@ -25,7 +25,7 @@ def helppi():           # helppi taulukko
     kaytto()
     print("Komennot:")
     print("     1 - 100      luvut       arvattavissa olevat luvut")
-    print("     helppi       komento     tämä helppi lista")
+    print("     --help       komento     tämä helppi lista")
     print("     lopeta       komento     lopettaa pelin")
 
 from math import trunc
