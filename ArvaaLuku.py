@@ -100,5 +100,6 @@ while jatkaa == True:
     else:
         tyhjiä_rivejä(1)
         print("Kiitokset, että pelasit! :)")
+        print("   ---=== jpeant ===---")
         tyhjiä_rivejä(2)
         break
