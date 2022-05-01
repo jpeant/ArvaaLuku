@@ -1,4 +1,4 @@
-# ArvaaLuku
-Yksinkertainen arvaus peli. Peli arpoo luvun 1 -100 väliltä ja käyttäjän tulisi arvata oikea luku 8 arvauskerralla. Ohjelma kertoo onko arvaus pienempi / suurempi ja lähellä / kaukana.
+# Quess The Number -game
+Very simpple quess game. Game randomizez one number between 1-100 and user has 8  turns to quess. Game tells the player whether the quess is higher or lower then random number.  
 
-Käyttö: Avaa päätteessä ArvaaLuku.py
+Usage: run in terminal QuessTheNumber.py
